@@ -1,8 +1,4 @@
 # React + Vite
+In Java, I’ve used priority queues to manage tasks by importance, where smaller values mean higher priority. I applied the same concept here in React with a PRIORITY_MAP. It assigns "High" to 1, "Medium" to 2, and "Low" to 3.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+When sorting tasks, I compare these mapped values to ensure that higher-priority tasks appear first. This approach mirrors what I’ve done before with Java’s priority queues, ensuring important tasks are handled promptly.
